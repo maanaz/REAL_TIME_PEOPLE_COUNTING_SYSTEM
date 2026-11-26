@@ -43,7 +43,6 @@ class PersonTracker:
             tracker=self.tracker_yaml,
             conf=self.conf_threshold,
             device=self.device,
-            half=self.use_cuda,
             verbose=False,
         )
 
