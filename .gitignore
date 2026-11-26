@@ -3,6 +3,7 @@ Set-Content -Path .gitignore -Encoding UTF8 -Value @"
 venv/
 __pycache__/
 *.py[cod]
+v1_release/
 
 # Large Media & Model Weights
 videos/*
@@ -21,3 +22,5 @@ models/*.pt
 "@
 
 New-Item -ItemType File -Force -Path videos\.gitkeep, outputs\.gitkeep, models\.gitkeep | Out-Null
+v1_release.zip
+v1_release/

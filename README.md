@@ -39,8 +39,8 @@ Open **http://localhost:8501** in your browser.
 
 1. **Clone the repository:**
 
-       git clone -b v1 https://github.com/maanazkantony/PEOPLE_COUNTER.git
-       cd PEOPLE_COUNTER
+       git clone -b v1 https://github.com/maanaz/REAL_TIME_PEOPLE_COUNTING_SYSTEM
+       cd REAL_TIME_PEOPLE_COUNTING_SYSTEM
 
 2. **Build and run the Docker image:**
 
@@ -55,7 +55,7 @@ Open **http://localhost:8501** in your browser.
 
 1. **Clone the repository and select a branch (`v1` or `v2`):**
 
-       git clone -b v2 https://github.com/maanazkantony/PEOPLE_COUNTER.git
+       git clone -b v2 https://github.com/maanaz/REAL_TIME_PEOPLE_COUNTING_SYSTEM
        cd PEOPLE_COUNTER
 
 2. **Create and activate a virtual environment:**
