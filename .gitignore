@@ -1,0 +1,23 @@
+Set-Content -Path .gitignore -Encoding UTF8 -Value @"
+# Virtual Environment
+venv/
+__pycache__/
+*.py[cod]
+
+# Large Media & Model Weights
+videos/*
+outputs/*
+models/*.pt
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.pt
+
+# Keep empty directories tracked in Git
+!videos/.gitkeep
+!outputs/.gitkeep
+!models/.gitkeep
+"@
+
+New-Item -ItemType File -Force -Path videos\.gitkeep, outputs\.gitkeep, models\.gitkeep | Out-Null
